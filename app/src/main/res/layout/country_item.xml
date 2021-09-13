@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/countryItemColor"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/countryItemColor"
+    android:id="@+id/countryItemId">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="4dp"
+            android:layout_weight=".40"
+            android:layout_gravity="center_vertical">
+        <ImageView
+            android:id="@+id/flagImageView"
+            android:layout_width="20dp"
+            android:layout_height="11dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/country_flag"/>
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USA"
+            android:textSize="12sp"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeMaxTextSize="12sp"
+            android:autoSizeStepGranularity="2sp"
+            android:textColor="@color/textBlack"
+            android:fontFamily="@font/tajawalbold"
+            android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/confirmTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999M"
+            android:textSize="14sp"
+            android:textColor="@color/countryItemTextColor"
+            android:fontFamily="@font/tajawalblack"
+            android:layout_weight=".23"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/recoveredTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999M"
+            android:textSize="14sp"
+            android:textColor="@color/countryItemTextColor"
+            android:fontFamily="@font/tajawalblack"
+            android:layout_weight=".23"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/deathTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999M"
+            android:textSize="14sp"
+            android:textColor="@color/countryItemTextColor"
+            android:fontFamily="@font/tajawalblack"
+            android:layout_weight=".23"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

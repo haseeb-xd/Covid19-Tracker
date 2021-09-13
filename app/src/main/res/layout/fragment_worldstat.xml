@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayoutGlobal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="294dp"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center"
+
+                        app:srcCompat="@drawable/background_pic" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/tajawalbold"
+                        android:paddingStart="54dp"
+                        android:paddingTop="100dp"
+                        android:text="@string/covid19"
+                        android:textColor="@color/textBlack"
+                        android:textSize="27sp" />
+
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/textHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CasesNumber" />
+
+                <LinearLayout
+                    android:id="@+id/toggleGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/totalBtnId"
+                        style="@style/appTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total" />
+
+                    <Button
+                        android:id="@+id/todayBtnId"
+                        style="@style/appTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="todayBtnClick"
+                        android:text="@string/today" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBarId"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:progressBackgroundTint="@color/primeRed" />
+
+                </LinearLayout>
+
+                <include layout="@layout/total_card" />
+
+                <include layout="@layout/active_serious_layout" />
+
+                <TextView
+                    android:id="@+id/statisticsHeader"
+                    style="@style/textHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/statistics" />
+
+                <include layout="@layout/statistics_card" />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

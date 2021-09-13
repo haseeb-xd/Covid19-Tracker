@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Covid-19 Tracker</string>
+
+
+    <string name="covid19">Covid-19</string>
+    <string name="confirmed">confirmed</string>
+    <string name="recovery">Recovery</string>
+    <string name="Deaths">Deaths</string>
+    <string name="CasesNumber">Cases Numbers</string>
+    <string name="total">Total</string>
+    <string name="today">Today</string>
+    <string name="active">Active</string>
+    <string name="serious">Serious</string>
+    <string name="statistics">Statistics</string>
+    <string name="worldWide">World Wide</string>
+    <string name="countries">Countries</string>
+    <string name="casesPerMillion">Cases Per Million</string>
+    <string name="totalCasesPerMillion">Total Cases Per Million</string>
+    <string name="country">Country</string>
+    <string name="dot" translatable="false">.</string>
+    <string name="all">All</string>
+
+
+
+</resources>

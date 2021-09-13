@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="Global"
+        android:icon="@drawable/global"
+        app:cnb_backgroundColor="@color/population_background"/>
+
+    <item
+        android:id="@+id/bottom_nav_manage"
+        android:title="Countries"
+        android:icon="@drawable/countries"
+        app:cnb_backgroundColor="@color/population_background"/>
+
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="9dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp" >
+
+    <LinearLayout
+        android:background="@color/themecolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp"
+        android:weightSum="3">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/confirmHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmed"
+            android:paddingStart="13dp"
+            style="@style/statisticsCardHeaderStyle"
+            />
+        <TextView
+            android:id="@+id/confirmTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="13dp"
+            android:text="@string/dot"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/backgroundColor"
+            android:fontFamily="@font/tajawalblack"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/recoverLayoutId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/recoveredHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recovery"
+            android:paddingStart="13dp"
+            style="@style/statisticsCardHeaderStyle"
+            />
+
+        <TextView
+            android:id="@+id/recoveredTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="13dp"
+            android:text="@string/dot"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/backgroundColor"
+            android:fontFamily="@font/tajawalblack"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deathLayoutId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/deathsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Deaths"
+                android:paddingStart="13dp"
+                style="@style/statisticsCardHeaderStyle"
+                />
+
+            <TextView
+                android:id="@+id/deathsTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="13dp"
+                android:text="@string/dot"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:textColor="@color/backgroundColor"
+                android:fontFamily="@font/tajawalblack"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
