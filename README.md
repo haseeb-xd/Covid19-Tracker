@@ -30,5 +30,8 @@ This app gets data from API using retrofit and stores the fetched data.
 - [AnyChart](https://github.com/AnyChart/AnyChart-Android) - Data Visualization library for easily creating interactive charts in Android apps.
 - [Glide](https://github.com/bumptech/glide) - Open Source framework for image loading in Android.
 - [Chip Navigation Bar](https://github.com/ismaeldivita/chip-navigation-bar) - A navigation bar widget inspired on Google Bottom Navigation mixed with Chips component.
+- [Lottie Animations](https://lottiefiles.com/) - Lightweight, scalable animations for website and apps.
+
+
 
 
