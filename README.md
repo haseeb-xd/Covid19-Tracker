@@ -10,7 +10,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/haseeb-xd/Covid19-Tracker?style=social)
 
 
-##  Covid-19 Tracker App Outlook
+##  Covid-19 Tracker Android App Outlook
 | Splash Screen | On Boarding 1 |  On Boarding 2 |
 |:-:|:-:|:-:|
 | ![Fist](media/screenshot_1.jpg?raw=true) | ![3](media/screenshot_2.jpg?raw=true) | ![3](media/screenshot_3.jpg?raw=true) |
@@ -37,76 +37,66 @@ This app gets data from API using retrofit and stores the fetched data.
 - [Lottie Animations](https://lottiefiles.com/) - Lightweight, scalable animations for website and apps.
 
 
-## Prerequisites 🛠️
+# wallabag - Android App ![Build status](https://github.com/wallabag/android-app/workflows/CI/badge.svg?branch=master)
 
-Before you begin, ensure you have met the following requirements:
+<img src="/readme/wallabag logo.png" align="left"
+width="200" hspace="10" vspace="10">
 
-Make sure you have:
+wallabag is a self-hosted read-it-later app.  
+Unlike other services, wallabag is free and open source.  
+wallabag for Android is a companion app for [wallabag](https://www.wallabag.org). You need a wallabag account first, which you are going to use in this app.
 
--   Nodejs
--   npm or yarn
--   git
+wallabag is available on the Google Play Store and F-Droid.
 
-  1.  Install Vite tool first
-  <pre> npm create vite@latest </pre>
+<p align="left">
+<a href="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche">
+    <img alt="Get it on Google Play"
+        height="80"
+        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
+</a>  
+<a href="https://f-droid.org/app/fr.gaulupeau.apps.InThePoche">
+    <img alt="Get it on F-Droid"
+        height="80"
+        src="https://f-droid.org/badge/get-it-on.png" />
+        </a>
+        </p>
 
-  2. Project should be titled TRACKER.
+## About
 
-  3.  Run:
-  <pre> cd TRACKER </pre>
-  <pre> npm install </pre>
-  <pre> npm run dev </pre>
-  Application runs from localhost:http://127.0.0.1:5173/.
+The Covid-19 Tracker App is a mobile application development worn to trace the Covid-19 exposition all over the countries. This program is mainly built to establish the current situation of Covid19 during this pandemic. Covid-19 Tracker App is an Android based application. As everyone are aware the world is facing one of the unconditional outbreaks. The outburst of Covid-19 during this time period is to design and develop Covid-19 Tracker Android App using REST API which will track the Global Stats and gives the probability of total number of active cases, recovered cases and death rates in all countries around the world. The app helps to overcome the overall accuracy and providing the probability of covid cases in India states, districts and cities cases are derived with the help of APIs (Application Program Interface) data provided from the various 3rd party websites. The execution of app takes place in the emulator window which supports Android mobile application devices to run through Android environment. The app is designed only to track the cases that are presently running in India. By this, application plays a major role in providing result.
 
-  4. Copy and paste content of code file and folders into the project folder
+## Features
 
-  5. Install devDependencies listed below 👇🏻👇🏼👇🏽👇🏾👇🏿
+The android app lets you:
+- Icon real-time Tracking: Be aware of high-risk areas around you and monitor how quickly the virus is spreading in your city.
+- Icon symptoms Survey: Check if you need to be tested for COVID-19 by filling out a daily survey containing the latest CDC symptoms of Coronavirus.
+- Icon nearby Clinics: Find clinics and hospitals near you, check their opening times, and get directions.
+- Icon cases: Get a summary of new and total COVID-19 cases globally and per country updated daily.
+- Icon news: See the latest updates on the COVID-19 and read full newspaper articles.
 
-     ## OR
+## Permissions
 
-Clone or Download the repository 
-    <pre>git clone https://github.com/haseeb-xd/Covid19-Tracker.git </pre>
+On Android versions Covid-Tracker app requires the following permissions:
+- Full Network Access.
+- View Network Connections.
+- Run at startup.
+- Read and write access to external storage.
+
+## Contributing
+
+Covid-19 Tracker app is a free and open source project developed by volunteers. Any contributions are welcome. Here are a few ways you can help:
+ * [Report bugs and make suggestions.](https://github.com/haseeb-xd/Covid19-Tracker/issues)
+ * [Translate the app](https://github.com/haseeb-xd/Covid19-Tracker) (you don't have to create an account).
+ * Write some code. Please follow the code style used in the project to make a review process faster.
 
 
-## Tools needed to carry out THE Covid-19 Tracker successfully 🛠️
-1. Package managers: NPM, Yarn.
-
-2. Packages / devDependencies installation: 
-<pre>npm i retrofit </pre>
-<pre>npm i anychart </pre>  
-<pre>npm i glide</pre>
-<pre>npm i lottie-animations</pre>    
-
-## Let's Contribute 👍
-
--   Step 1 - Fork this repository.
--   Step 2 - Clone the repository to your local machine.
--   Step 3 - Resolve the bugs, mentions provided in the Issues section of the repository. Also add a description of what changes you have done.
--   Step 4 - Add the changes to your repository.
--   Step 5 - Create a PULL Request. And that's all.
-
-## What you can contribute in this repo? 👊
-
--   You can add your own competitive programming solutions.
--   There are various topics like Functionality, Modal aspect of thxmx-ui etc. You can contribute in them
--   You can contribute some Learning Resources in the READme.md File.
--   You can modify previous solutions if you feel like your solution has better Time or Space complexity.
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-## Contributors 💡
-Thanks to the following people who have contributed to this project:
-
-@haseeb-xd 📖
-@Dorcastunmise 🐛
-
-## Keywords 🤌
+## Keywords
 Covid-19 Statistics Graph API Retrofit2 AnyChart Glide Chip Navigation Bar Lottie Animations 
 Mask Java Countries Android Android-application Covid19-data Covid19-tracker
 
-## Contact 👋 
+## Contact 
 
-If you want to contact me you can reach me at :
+If you want to contact me you can reach me at :  
      Websites
 -   LinkedIn Account: https://www.linkedin.com/in/haseebansari/
 -   G-mail Account: haseebansari1000@gmail.com.com
