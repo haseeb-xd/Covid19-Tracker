@@ -65,7 +65,7 @@ Make sure you have:
      ## OR
 
 Clone or Download the repository 
-    <pre>git clone https://thxmx-ui.netlify.app/ </pre>
+    <pre>git clone https://github.com/haseeb-xd/Covid19-Tracker.git </pre>
 
 
 ## Tools needed to carry out THE Covid-19 Tracker successfully 🛠️
