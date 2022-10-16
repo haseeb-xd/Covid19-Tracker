@@ -10,7 +10,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/haseeb-xd/Covid19-Tracker?style=social)
 
 
-##  Screenshots
+##  Covid-19 Tracker App Outlook
 | Splash Screen | On Boarding 1 |  On Boarding 2 |
 |:-:|:-:|:-:|
 | ![Fist](media/screenshot_1.jpg?raw=true) | ![3](media/screenshot_2.jpg?raw=true) | ![3](media/screenshot_3.jpg?raw=true) |
