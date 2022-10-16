@@ -108,7 +108,9 @@ Mask Java Countries Android Android-application Covid19-data Covid19-tracker
 
 If you want to contact me you can reach me at :
      Websites
-LinkedIn Account: https://www.linkedin.com/in/haseebansari/
-G-mail Account: haseebansari1000@gmail.com.com
+-   LinkedIn Account: https://www.linkedin.com/in/haseebansari/
+-   G-mail Account: haseebansari1000@gmail.com.com
+
+
 
 
