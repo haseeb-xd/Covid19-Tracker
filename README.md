@@ -24,42 +24,12 @@
 This app gets data from API using retrofit and stores the fetched data.
 - It uses line chart for showing historical data 
 
-## Why use the COVID Tracker app
-- keep tracks of how you are feeling each day.
-- Lets users know and understand symptoms of COVID-19 (coronavirus).
-- Getting advice quickly on what to do.
-
 ## 📃 Libraries used
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
 - [AnyChart](https://github.com/AnyChart/AnyChart-Android) - Data Visualization library for easily creating interactive charts in Android apps.
 - [Glide](https://github.com/bumptech/glide) - Open Source framework for image loading in Android.
 - [Chip Navigation Bar](https://github.com/ismaeldivita/chip-navigation-bar) - A navigation bar widget inspired on Google Bottom Navigation mixed with Chips component.
 - [Lottie Animations](https://lottiefiles.com/) - Lightweight, scalable animations for website and apps.
-
-
-# wallabag - Android App ![Build status](https://github.com/wallabag/android-app/workflows/CI/badge.svg?branch=master)
-
-<img src="/readme/wallabag logo.png" align="left"
-width="200" hspace="10" vspace="10">
-
-wallabag is a self-hosted read-it-later app.  
-Unlike other services, wallabag is free and open source.  
-wallabag for Android is a companion app for [wallabag](https://www.wallabag.org). You need a wallabag account first, which you are going to use in this app.
-
-wallabag is available on the Google Play Store and F-Droid.
-
-<p align="left">
-<a href="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche">
-    <img alt="Get it on Google Play"
-        height="80"
-        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
-</a>  
-<a href="https://f-droid.org/app/fr.gaulupeau.apps.InThePoche">
-    <img alt="Get it on F-Droid"
-        height="80"
-        src="https://f-droid.org/badge/get-it-on.png" />
-        </a>
-        </p>
 
 ## About
 
