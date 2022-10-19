@@ -20,10 +20,6 @@
 | ![7](media/screenshot_7.jpg?raw=true) | ![8](media/screenshot_8.jpg?raw=true) | 
 
 
-## About
-This app gets data from API using retrofit and stores the fetched data.
-- It uses line chart for showing historical data 
-
 ## 📃 Libraries used
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
 - [AnyChart](https://github.com/AnyChart/AnyChart-Android) - Data Visualization library for easily creating interactive charts in Android apps.
@@ -41,10 +37,6 @@ The execution of app takes place in the emulator window which supports Android m
 
 The android app lets you:
 - Icon real-time Tracking: Be aware of high-risk areas around you and monitor how quickly the virus is spreading in your city.
-- Icon symptoms Survey: Check if you need to be tested for COVID-19 by filling out a daily survey containing the latest CDC symptoms of Coronavirus.
-- Icon nearby Clinics: Find clinics and hospitals near you, check their opening times, and get directions.
-- Icon cases: Get a summary of new and total COVID-19 cases globally and per country updated daily.
-- Icon news: See the latest updates on the COVID-19 and read full newspaper articles.
 
 ## Permissions
 
